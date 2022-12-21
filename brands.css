@@ -1,0 +1,190 @@
+@font-face {
+  font-family: "TTLakes-Light";
+  src: url("./fonts/TTLakes-Light.woff");
+}
+@font-face {
+  font-family: "TTLakes-DemiBold";
+  src: url("./fonts/TTLakes-DemiBold.woff");
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    max-height: 234px;
+  }
+  header {
+    height: 80px;
+  }
+  .brands {
+    display: none;
+  }
+  .page__button.page__320_hidden {
+    display: none;
+  }
+  .card {
+    width: 240px;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  .brands__tabs_link {
+    left: 184px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1120px) {
+  .wrapper {
+    min-height: 322px;
+  }
+  .swiper-container {
+    display: none;
+  }
+  .brands {
+    display: flex;
+    flex-wrap: wrap;
+    height: 208px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .card.brands__tabs_view-sonic {
+    display: none;
+  }
+  .card.brands__tabs_sony {
+    display: none;
+  }
+  .brands__tabs_link {
+    left: 174px;
+  }
+  .card {
+    width: 224px;
+    margin-top: 16px;
+  }
+  .hidden-tabs {
+    display: none;
+  }
+}
+
+@media (min-width: 1121px) {
+  .wrapper {
+    min-height: 322px; /*высота поменяется со скриптом*/
+  }
+  .swiper-container {
+    display: none;
+  }
+  .brands {
+    display: flex;
+    flex-wrap: wrap;
+    height: 208px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .card {
+    width: 240px;
+    margin-top: 16px;
+  }
+  .brands__tabs_link {
+    left: 184px;
+  }
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+.header {
+  background-color: #ffffff;
+}
+.title {
+  font-family: "TTLakes-Light", "Arial", sans-serif;
+  font-size: 16px;
+  color: #7e7e82;
+  letter-spacing: -0.2px;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 16px;
+  margin: 0;
+}
+.card {
+  height: 72px;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  padding: 0;
+  margin-left: 16px;
+  display: flex;
+  background-color: #ffffff;
+}
+.brands__tabs_lenovo {
+  background-image: url(./img/services-pics/Lenovo.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 20px;
+}
+.brands__tabs_samsung {
+  background-image: url(./img/services-pics/Samsung.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 17px;
+}
+.brands__tabs_apple {
+  background-image: url(./img/services-pics/Apple.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 12px;
+}
+.brands__tabs_bosch {
+  background-image: url(./img/services-pics/Bosch.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 21.7px;
+}
+.brands__tabs_hp {
+  background-image: url(./img/services-pics/HP.svg);
+  background-repeat: no-repeat;
+  background-position: left 10px top 10px;
+}
+.brands__tabs_acer {
+  background-image: url(./img/services-pics/Acer.svg);
+  background-repeat: no-repeat;
+  background-position: left 16px top 24px;
+}
+.brands__tabs_view-sonic {
+  background-image: url(./img/services-pics/ViewSonic.svg);
+  background-repeat: no-repeat;
+  background-position: left 14px top 26px;
+}
+.brands__tabs_sony {
+  background-image: url(./img/services-pics/Sony.svg);
+  background-repeat: no-repeat;
+  background-position: left 14px top 23px;
+}
+.brands__tabs_link {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 16px;
+}
+.page__button {
+  display: block;
+  position: absolute;
+  left: 32.29px;
+}
+.page__button_text {
+  border: none;
+  line-height: 24px;
+  font-family: "TTLakes-DemiBold", "Arial", sans-serif;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.swiper-wrapper {
+  height: 154px;
+}
+.swiper-pagination-bullet {
+  background-color: #b5b6bc;
+  width: 12px;
+  height: 12px;
+}
+.swiper-pagination.swiper-pagination-bullets {
+  position: relative;
+  bottom: 38px;
+}

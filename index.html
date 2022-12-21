@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+          <button
+            class="nav__button burger"
+            type="button"
+            title="меню"
+            aria-label=" открыть меню"
+          ></button>
+
+          <hr class="line2" />
+
+          <img
+            class="logo"
+            src="./img/Group.svg"
+            alt="логотип"
+            width="96.55"
+            height="50.81"
+          />
+
+          <ul class="nav__right">
+            <li>
+              <button
+                class="nav__button landscape call"
+                type="button"
+                title="звонок"
+                aria-label="позвонить"
+              ></button>
+            </li>
+            <li>
+              <button
+                class="nav__button landscape chat"
+                type="button"
+                title="чат"
+                aria-label="написать в чат"
+              ></button>
+            </li>
+            <li>
+              <button
+                class="nav__button landscape profile"
+                type="button"
+                title="профайл"
+                aria-label="открыть профайл"
+              ></button>
+            </li>
+            <hr class="line" />
+            <li>
+              <button
+                class="nav__button repair"
+                type="button"
+                title="заявка"
+                aria-label="оставить заявку"
+              ></button>
+            </li>
+            <li>
+              <button
+                class="nav__button checkstatus"
+                type="button"
+                title="статус ремонта"
+                aria-label="проверить статус ремонта"
+              ></button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="page">
+        <div class="page__services">
+          <img
+            class="page__services_design-pic"
+            src="./img/highlight.svg"
+            alt="декоративный элемент"
+            width="4"
+            height="40"
+          />
+          <h1 class="page__services_title">Услуги и сервисы</h1>
+          <div class="page__head-buttons">
+            <span class="page__head-buttons_text">Оставить заявку</span
+            ><button
+              class="nav__button repair large"
+              type="button"
+              aria-label="оставить заявку"
+            ></button>
+            <span class="page__head-buttons_text">Статус ремонта</span
+            ><button
+              class="nav__button checkstatus large"
+              type="button"
+              aria-label="проверить статус ремонта"
+            ></button>
+          </div>
+        </div>
+
+        <ul class="page__menu">
+          <li class="page__menu_repair-devices">
+            <a
+              class="page__menu_link active"
+              aria-label="Ремонтируемые устройства"
+              href="#"
+              >Ремонтируемые устройства</a
+            >
+          </li>
+          <li class="page__menu_repair-brands">
+            <a
+              class="page__menu_link active"
+              aria-label="Ремонтируемые бренды"
+              href="#"
+              >Ремонтируемые бренды</a
+            >
+          </li>
+          <li class="page__menu_extra-services">
+            <a
+              class="page__menu_link"
+              aria-label="Дополнительные услуги"
+              href="#"
+              >Дополнительные услуги</a
+            >
+          </li>
+          <li class="page__menu_prices">
+            <a class="page__menu_link" aria-label="Цены на услуги" href="#"
+              >Цены на услуги</a
+            >
+          </li>
+          <li class="page__menu_special-prices">
+            <a class="page__menu_link" aria-label="Специальные цены" href="#"
+              >Специальные цены</a
+            >
+          </li>
+          <li class="page__menu_adresses">
+            <a
+              class="page__menu_link"
+              aria-label="Адреса сервисных центров"
+              href="#"
+              >Адреса сервисных центров</a
+            >
+          </li>
+          <li class="page__menu_reviews">
+            <a class="page__menu_link" aria-label="Отзывы" href="#">Отзывы</a>
+          </li>
+        </ul>
+
+        <div class="page__all-info">
+          <div class="page__text-and-button">
+            <div class="page__text">
+              <p class="page__text_1">
+                Мы являемся авторизованным сервисным центром по ремонту техники
+                Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+                официальной гарантией производителя.
+              </p>
+              <p class="page__text_2">
+                Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                партнера<span class="page__text_3"
+                  >, что подтверждает большое количество постоянных клиентов. Мы
+                  гордимся тем, что к нам обращаются по рекомендациям и, в свою
+                  очередь, советуют нас родным и близким.</span
+                >
+              </p>
+            </div>
+
+            <div class="page__button">
+              <img
+                src="./img/icon.svg"
+                alt="читать далее стрелка"
+                class="page__button_icon"
+              />
+              <button
+                class="page__button_text"
+                type="button"
+                aria-label="читать далее"
+              >
+                Читать далее
+              </button>
+            </div>
+          </div>
+          <figure class="page__logo-photo">
+            <img
+              src="./img/logoPic.png"
+              alt="Фото логотипа фирмы в офисе"
+              class="photo"
+            />
+          </figure>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

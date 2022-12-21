@@ -1,0 +1,423 @@
+@font-face {
+  font-family: "TTLakes-Regular";
+  src: url("./fonts/TTLakes-Regular.woff");
+}
+@font-face {
+  font-family: "TTLakes-Light";
+  src: url("./fonts/TTLakes-Light.woff");
+}
+@font-face {
+  font-family: "TTLakes-DemiBold";
+  src: url("./fonts/TTLakes-DemiBold.woff");
+}
+@font-face {
+  font-family: "TTLakes-Bold";
+  src: url("./fonts/TTLakes-Bold.woff");
+}
+
+@media (min-width: 320px) and (max-width: 783px) {
+  .wrapper {
+    width: 320px;
+  }
+  .nav {
+    width: 320px;
+  }
+  .nav__right {
+    margin: 0;
+  }
+  .nav__button.burger {
+    margin-right: 16.73px;
+  }
+  .line2 {
+    display: none;
+  }
+  .landscape {
+    display: none;
+  }
+  .page {
+    border-top: 1px solid #D9FFF5;
+  }
+  .page__services_design-pic {
+    margin: 0;
+    margin-top: 24px;
+  }
+  .page__services_title {
+    margin-left: 16px;
+    margin-top: 24px;
+    margin-bottom: 0;
+  }
+  .page__head-buttons {
+    display: none;
+  }
+  .page__menu {
+    white-space: nowrap;
+  }
+  .page__menu li {
+    margin-top: 24px;
+  }
+  
+  .page__all-info {
+    flex-direction: column;
+  }
+  .page__logo-photo {
+    width: 320px;
+    height: 230.8px;
+  }
+  .page__text {
+    width: 288px;
+    height: 90px;
+    line-height: 18px;
+    margin: 16px;
+    margin-top: 24px;
+  }
+  .page__text_1 {
+    margin: 0;
+  }
+  .page__text_2 {
+    display: none;
+  }
+  .page__text_3 {
+    display: none;
+  }
+  .page__logo-photo{
+    margin: 0;
+  }
+}
+
+@media (min-width: 784px) and (max-width: 1119px) {
+  .wrapper {
+    width: 784px;
+  }
+  .nav {
+    width: 768px;
+  }
+  .nav__right {
+    margin: 0;
+    margin-left: auto;
+  }
+  .nav__button.burger {
+    margin-right: 0;
+  }
+  .line2 {
+    height: 32px;
+
+    margin-top: 28px;
+    margin-bottom: 28px;
+    margin-right: 20.73px;
+    margin-left: 20px;
+
+    border-radius: 1px;
+    border: 1px solid #EAEAEA;
+    background: #EAEAEA;
+  }
+  .page {
+    width: 769px;
+    height: 416px;
+    border-top: 1px solid #D9FFF5;
+  }
+  .page__services_design-pic {
+    margin: 0;
+    margin-top: 24px;
+  }
+  .page__services_title {
+    margin-left: 24px;
+    margin-top: 24px;
+    margin-bottom: 0;
+  }
+  .page__head-buttons {
+    display: none;
+  }
+  .page__menu {
+    white-space: nowrap;
+  }
+  .page__menu li {
+    margin-top: 32px;
+  }
+
+  .page__all-info {
+    margin-top: 32px;
+  }
+  .page__text:not(.page__text_3) {
+    width: 312px;
+    height: 160px;
+  }
+  .page__text {
+    margin-bottom: 10px;
+    margin-left: 24px;
+    line-height: 20px;
+  }
+  .page__text_3 {
+    display: none;
+  }
+  .page__text-and-button {
+    display: flex;
+    flex-direction: column;
+  }
+  .page__logo-photo {
+    width: 360px;
+    height: 233.66px;       
+  }
+  .photo {
+    border-radius: 6px;
+    height: 208px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .wrapper {
+    width: 1120px;
+    height: 535px;
+  }
+  .header {
+    display: none;
+  }
+  .page__services {
+    height: 40px;
+    padding-top: 42px;
+    margin-bottom: 8.37px;
+  }
+  .page__services_design-pic {
+    align-self: center;
+  }
+  .page__services_title {
+    margin-left: 32px;
+    margin-bottom: 0;
+    align-self: center;
+  }
+  .page__head-buttons {
+    display: flex;
+    align-items: center;
+  }
+  .nav__button.large {
+    margin: 0;
+    margin-left: 8px;
+    margin-right: 32px;
+  }
+  .page__head-buttons_text {
+    width: 125px;
+    height: 24px;
+    
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: right;
+    font-family: "TTLakes-Regular", "Arial", sans-serif;
+    font-weight: 600;
+
+    align-self: center;
+  }
+    
+  .page__menu {
+    width: 1063px;
+    height: 90px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .page__menu li {
+    margin-top: 8.37px;
+    
+  }
+  .page__menu_adresses {
+    margin-left: 28px;
+    margin-right: 19px;
+  }
+  .page__menu_reviews {
+    margin-right: auto;
+  }
+  .page__menu_link:active,
+  .page__menu_link:focus {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16.54px;
+    padding-right: 9.3px;
+  }
+ 
+  .page__all-info {
+    margin-left: 32px;
+    margin-top: 19.22px;
+  }
+
+  .page__text-and-button {
+    margin-top: 19.22px;
+  }
+
+  .page__text {
+    width: 490px;
+    height: 160px;
+    line-height: 20px;    
+  }
+  .page__text_1 {
+    margin-top: 0;
+  }
+  .page__logo-photo {
+    height: 344.86px;
+    margin-left: 36px;
+    margin-bottom: 11.13px;
+  }
+  .photo {
+    width: 531.35px;
+    height: 307px;
+    border-radius: 6px;
+  }
+    
+}
+
+.wrapper {
+  margin: 0 auto;
+  background-color: #F8F8F8;
+}
+.nav {
+  display: flex;
+  height: 88px;
+  background-color: #FFFFFF;
+  font-family: "TTLakes-DemiBold", "Arial", sans-serif;
+}
+.nav__button {
+  width: 40px;
+  height: 40px;
+    
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-right: 16px;
+
+  border: none;
+  cursor: pointer;
+}
+.nav__button.burger {
+  background: url(./img/burger.svg) no-repeat;
+  margin-left: 16px; 
+}
+.nav__button.call {
+  background: url(./img/call.svg);
+}
+.nav__button.chat {
+  background: url(./img/chat.svg);
+}
+.nav__button.profile {
+  background: url(./img/profile.svg);
+}
+.nav__button.repair {
+  background: url(./img/repair.svg);
+  margin-left: 20px;
+}
+.nav__button.checkstatus {
+  background: url(./img/checkstatus.svg);
+}
+.logo {
+  margin-top: 18.59px;
+  margin-bottom: 18.59px;
+  margin-right: 16.73px;
+    
+  border-right: 2px;
+}
+.line {
+  height: 32px;
+
+  margin-top: 28px;
+  margin-bottom: 28px;
+    
+  border-radius: 1px;
+  border: 1px solid #EAEAEA;
+  background: #EAEAEA;
+}
+.nav__right {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.nav__right li {
+  display: inline;
+}
+
+.page {
+  background-color: #F8F8F8;
+}
+.page__all-info {
+  display: flex;
+}
+.page__services {
+  display: flex;
+  font-family: "TTLakes-Bold", "Arial", sans-serif;
+}
+.page__services_title {
+  margin-right: auto;
+  height: 40px;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.page__menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "TTLakes-Light", "Arial", sans-serif;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.page__menu_repair-devices {
+  border: 2px solid #B8FFEC;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  margin-left: 16px;
+}
+.page__menu_link {
+    outline: none;
+    text-decoration: none;
+}
+.page__menu_link:active,
+.page__menu_link:focus {
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16.54px;
+    padding-right: 9.3px;
+}
+
+.page__menu::-webkit-scrollbar { 
+  display: none;
+}
+.page__menu li {
+  display: inline;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16.54px;
+  padding-right: 9.3px;
+
+  color: #7E7E82;
+  line-height: 24px;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+.page__text {
+  padding: 0;
+       
+  font-size: 14px;
+  font-family: "TTLakes-Regular", "Arial", sans-serif;
+  letter-spacing: 0.2px;
+}
+.page__button {
+  display: block;
+  margin-left: 24.29px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-right: auto;
+}
+.page__button_text {
+  border: none;
+  line-height: 24px;   
+  font-family: "TTLakes-DemiBold", "Arial", sans-serif;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.page__button_icon {
+  width: 7.41px;
+  height: 10.29px;
+}
